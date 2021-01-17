@@ -10,8 +10,6 @@ const StyleHeader = styled.header`
         align-items: center;
         max-width: 90%;
         margin: 0.7rem auto;
-
-        background: ${props => props.color};
        
         ul {
             display: flex; 
@@ -19,6 +17,7 @@ const StyleHeader = styled.header`
             a {
                 color: #222222;
                 margin: 0.5rem;
+                background: ${props => props.color}
             }
 
             .bg-black {

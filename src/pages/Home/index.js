@@ -1,12 +1,14 @@
 import React from 'react'
 import Header from '../../components/Header'
-
-import styled from 'styled-components'; 
+import ContainerInfo from '../../components/ContainerInfo';
 
 
 const Home = () => {
     return (
-       <Header/>
+        <>
+            <Header/>
+            <ContainerInfo/>            
+        </>
     )
 }
 

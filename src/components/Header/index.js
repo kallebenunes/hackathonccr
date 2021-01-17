@@ -1,10 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import StyleHeader from './style'
 
 
 
-const Header = () => {
+const Header = (props) => {
+    
     return (
      <StyleHeader>
          <nav color='#222222'>
