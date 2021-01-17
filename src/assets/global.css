@@ -1,8 +1,14 @@
+@font-face{
+    font-family: Gotham;
+    src: url('./fonts/Gotham-XLight.otf');
+}
+
 body {
     max-width: 1440px;
     margin: 0 auto;
     font-family: Helvetica;
-    background: #E5E5E5;
+    background: rgb(255, 255, 255);
+    /* color: #e6f7ff; */
 }
 
 a {

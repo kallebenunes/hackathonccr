@@ -4,7 +4,7 @@ import StyleHeader from './style'
 
 
 
-const Header = (props) => {
+const Header = () => {
     
     return (
      <StyleHeader>

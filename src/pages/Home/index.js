@@ -1,13 +1,15 @@
 import React from 'react'
 import Header from '../../components/Header'
 import ContainerInfo from '../../components/ContainerInfo';
+import Testimonals from '../../components/Testimonals';
 
 
 const Home = () => {
     return (
         <>
             <Header/>
-            <ContainerInfo/>            
+            <ContainerInfo/>       
+            <Testimonals color='pink'/>     
         </>
     )
 }

@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const StyleHeader = styled.header`
 
-    border-bottom: 1px solid #C4C4C4;
+    border-bottom: 1px solid #C4C4C4;   
     
     nav {
         display: flex;
